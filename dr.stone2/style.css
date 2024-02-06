@@ -1,0 +1,30 @@
+body{
+    background-image: url(images/stone.jpg)
+}
+img{
+    height:200px;
+    margin:15px 10px;
+
+}
+
+{
+    box-sizing:border-box
+}
+div {
+  background-color: tan;
+  inline-size: 300px;
+  padding: 8px;
+  border-block-width: 8px;
+  border-block-style: solid;
+  border-block-color: black;
+}
+h2 {color: whitesmoke;
+    font-size: 40px;
+}
+
+h1 {color: black;
+    font-size: 45px;
+}
+h6 {color: black;
+    font-size: 12px;
+}

@@ -1,0 +1,65 @@
+body{
+    background-color:gainsboro;
+}
+img{
+  max-width:100%;  
+}
+
+{box-sizing:border-box}
+
+body {background-color:darkgreen;}
+p {background-color:lightblue;
+padding:10px;}
+
+p{background-color:cornsilk;}
+
+.more-specific {
+    background-color:yellowgreen;
+    padding:20px;
+}
+#even-more-specific {
+    background-color:honeydew;
+}
+
+.square {
+    background-color:chocolate;
+    width:200px;
+    height:200px;
+    border:1px solid darkblue;
+    margin:20px 0;
+    
+}
+.relative{ 
+background-color:teal;
+position:relative;
+bottom:20px;
+right:20px;
+}
+
+.fixed{
+    background-color: palevioletred;
+    position:fixed;
+    bottom:0;
+    right:0;
+    margin:0;
+}
+
+
+.container {
+background-color:khaki;
+    width:500px;
+    height:500px;
+    border:1px solid black;
+    margin:20px 0;
+    position:relative;
+}
+.absolute {
+    background-color: chartreuse;
+    position:absolute;
+    top:0px;
+    right:-200px;
+    margin:0;
+}
+
+
+

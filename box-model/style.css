@@ -1,0 +1,23 @@
+body {
+    background-color: azure;
+}
+div {
+    background-color:aquamarine;
+    padding:20px;
+    border:10px dashed red;
+    margin:20px;
+    width:200px;
+    height:200px;
+}
+.border-box {
+    background-color:orange;
+    padding:20px;
+    border:10px dashed red;
+    margin:20px;
+    width:200px;
+    height:200px;
+    box-sizing:border-box;
+}
+img{
+    max-width:100%;
+}
