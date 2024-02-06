@@ -15,7 +15,7 @@ div {
   inline-size: 300px;
   padding: 8px;
   border-block-width: 8px;
-  border-block-style: solid;
+  border-style: double;
   border-block-color: black;
 }
 
@@ -24,7 +24,7 @@ div {
   inline-size: 200px;
   padding: 8px;
   border-block-width: 2px;
-  border-block-style: solid;
+ border-style: inset
   border-block-color: black;
 }
 h2 {color: whitesmoke;
@@ -38,5 +38,5 @@ h6 {color: black;
     font-size: 12px;
 }
 p{
-    font-size:10px;
+    font-size:12px;
 }
