@@ -4,7 +4,6 @@ body{
 img{
     height:200px;
     margin:15px 10px;
-
 }
 
 {
@@ -21,7 +20,7 @@ div {
 
 .body{
   background-color: white;
-  inline-size: 200px;
+  inline-size: 400px;
   padding: 8px;
   border-block-width: 2px;
  border-style: inset
