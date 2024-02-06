@@ -26,6 +26,8 @@ div {
   border-block-width: 2px;
  border-style: inset
   border-block-color: black;
+  display:flex;
+    align-items:center;
 }
 h2 {color: whitesmoke;
     font-size: 40px;
