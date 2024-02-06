@@ -18,6 +18,15 @@ div {
   border-block-style: solid;
   border-block-color: black;
 }
+
+.body{
+  background-color: white;
+  inline-size: 200px;
+  padding: 8px;
+  border-block-width: 2px;
+  border-block-style: solid;
+  border-block-color: black;
+}
 h2 {color: whitesmoke;
     font-size: 40px;
 }
@@ -27,4 +36,7 @@ h1 {color: black;
 }
 h6 {color: black;
     font-size: 12px;
+}
+p{
+    font-size:10px;
 }
