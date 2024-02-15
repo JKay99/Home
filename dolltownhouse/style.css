@@ -74,8 +74,13 @@ h3{
 
 .roof{
     position:relative;
+     z-index: 1;
     bottom:-460px;
     left:145px;
      
   
 }
+.medium {
+  opacity: 0.5;
+}
+
