@@ -1,0 +1,76 @@
+.grass{
+    background-color:green;
+    bottom:0px;
+    position: relative;
+    height:200px;
+   
+    
+}
+
+body {
+    background-color: azure;
+}
+
+
+h3{
+    text-align: center;
+}
+
+
+.container{
+    display:flex;
+    justify-content: center;
+    transform:translate(0,-26.7%);
+    margin:0;
+}
+
+.box1 {
+  height:300px;
+      width:300px;
+      background-color:tan;
+    margin:0;
+}
+
+.box2 {
+  height:300px;
+      width:300px;
+      background-color:yellow;
+    margin:0;
+}
+
+.box3 {
+  height:300px;
+      width:300px;
+      background-color:grey;
+    margin:0;
+}
+
+.container2{
+    display:flex;
+    justify-content: center;
+    height:200px;
+}
+.box4 {
+  height:300px;
+      width:300px;
+      background-color:blue;
+}
+
+.box5 {
+  height:300px;
+      width:300px;
+      background-color:red;
+}
+
+.absolute{
+    position:relative; 
+    transform:translate(0px,-40%);
+    margin:0;
+
+}
+
+.roof{
+    position:relative;
+    top:200px;
+    right:-50px;
+}
