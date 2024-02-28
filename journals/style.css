@@ -2,7 +2,7 @@
     background-color:lightgrey;
     border-block-color:black;
     border-style: double;
-    display:inline-block;
+    display:grid;
     margin: 15px;
     padding:10px;
 }
@@ -13,13 +13,10 @@ margin:0;
     color:lightseagreen;
 }
 
-.spacebox{
-    top:0;
-    height: 85px;
-    width: 100%;
-}
+
 
 h2{
     color:cadetblue;
     text-align:center;
+    font-size:30px;
 }
