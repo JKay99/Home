@@ -117,12 +117,14 @@ animation: spin 5s infinite reverse linear;
 @keyframes change{
     0% {background-color:blue;}
     15% {background-color:pink;}
-    35% {background-color:blueviolet;}
-    45% {background-color:paleturquoise;}
-    55% {background-color:yellow;}
-    65% {background-color:greenyellow;}
-    75% {background-color:fuchsia;}
-    90% {background-color:lawngreen;}
+    25% {background-color:blueviolet;}
+    35% {background-color:paleturquoise;}
+    45% {background-color:yellow;}
+    55% {background-color:greenyellow;}
+    65% {background-color:fuchsia;}
+    70% {background-color:darkorchid;}
+    80% {background-color:yellow;}
+    90% {background-color:lime;}
     100% {background-color:purple;}
     }
 
