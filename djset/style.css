@@ -10,6 +10,7 @@ display:block;
     box-sizing:border-box;
 }
 
+.player {display: none;}
 
 .content{
     border-radius:30px;
