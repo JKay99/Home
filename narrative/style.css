@@ -1,0 +1,112 @@
+html, body{
+    height:98vh;
+    width: 600vw;
+    margin:0;} 
+
+img{ object-fit: contain;}
+{
+    box-sizing:border-box;
+}
+
+#blue{
+    width:600vw;
+    max-height: 97vh;
+    object-fit: contain;
+}
+
+.background{
+    max-height: 98vh;
+    width:600vw;
+    z-index: -3;
+    position: absolute;
+    background-size: contain;
+    object-fit: cover;
+    top:0px;
+    left:0px;
+}
+
+.text{
+    font-size: 60px;
+    font-family: "Baskerville Old Face", serif;
+    color: white;
+    font-weight: bold;
+ 
+}
+
+.rectangle{
+    width: 100px;
+    height: 200px;
+    background-color: orangered;
+    opacity: 70%;
+    display: flex;
+    z-index: 1;
+    margin-left: 400px;
+   
+/*
+    justify-content: center;
+    align-items: center;
+*/
+    
+    animation: float 3s alternate infinite ease-in ease-out linear;}
+
+/*    z-index:2;*/
+}
+
+@keyframes float{
+    0%{ 
+     transform: translateY(0);
+    }
+    
+    100%{
+        transform: translateY(30px);
+    }
+}
+
+    .top{
+    display:inline-flex;
+    flex-direction: row;
+/*    object-position: top;*/
+/*        margin-right:30px;*/
+        width:100%;
+        z-index:1;
+        position: absolute;
+}
+
+
+.box2{
+    transform: scale(50%);
+    position: fixed;
+    top: 50%; left: 20%;
+    z-index: 3;
+    animation: pulse 3s infinite ease-out;
+}
+
+@keyframes pulse {
+	0% {
+        transform: scale(0.30);}
+    70% {
+        transform: scale(0.5);}
+    100% {
+        transform: scale(0.30);}
+}
+.layer{
+    z-index:2;
+    position:absolute;
+    bottom:-100px;
+    scale:80%;
+    transform: translateX(-1900px);
+}
+.layer2{
+    
+    bottom:-500px;
+    transform: translateY(250px);
+    scale:80%;
+}
+
+.whale{
+    position: absolute;
+    scale: 60%;
+    z-index: 8;
+    top: 10px;
+    left: 2600px;
+}
