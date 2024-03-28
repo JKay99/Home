@@ -1,0 +1,52 @@
+body{
+    background-color:aquamarine;
+    transition: background-color .3s;
+}
+img{
+  max-width:100%;  
+}
+
+{
+    box-sizing:border-box;
+}
+.dark{
+    background-color: mintcream;
+}
+
+.sidebar{
+    padding: 20px;
+    background-color: slategray;
+    color: white;
+    font-size: 20px;
+    position: fixed;
+    top:0px;
+    right:-400px;
+    width: 300px;
+    height: 100vh;
+    text-align: center;
+    transition:right .5s ease-in-out;
+}
+
+.active {
+background-color: royalblue;
+right:0;
+}
+
+.box{
+    background-color: slategray;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom:30px;
+    left:30px;
+    transition: all 2s;
+}
+
+.spin{
+    transform: rotate(180deg);
+}
+
+.glow{
+    background-color: cyan;
+     color:indianred;
+}
