@@ -1,0 +1,164 @@
+body{
+    background-color:black;
+    padding: 0;
+    margin: 0;
+}
+img{
+  max-width:100%;
+    margin:0;
+    padding:0;
+}
+
+{
+    box-sizing:border-box;
+}
+
+.top{
+position:absolute;
+top:15px;
+left:0px;
+width:100%;
+height:40px;
+overflow:auto;
+text-align: center;
+font-size: 20px;
+color:white;
+font-family:"Lucida Console", "Courier New", monospace;
+justify-content: space-evenly;
+align-items: center;
+padding: 0;
+margin: 0;
+display: flex;
+}
+
+.key1{
+    height:40px;
+    width:40px;
+    margin: 0px;
+    top:0px;
+    display: flex;
+    object-fit: contain;
+}
+
+.key2{
+    height:40px;
+    width:40px;
+    margin: 0px;
+    top:0px;
+    display: flex;
+    object-fit: contain;
+}
+
+.key3{
+   height:40px;
+    width:40px;
+    margin: 0px;
+    top:0px;
+    display: flex;
+    object-fit: contain;
+}
+
+.key4{
+    height:40px;
+    width:40px;
+    margin: 0px;
+    top:0px;
+    display: flex;
+    object-fit: contain;
+}
+
+.walls{
+    position:absolute;
+    top:8%;
+    left:5%;
+    width:90%;
+    height:90%;
+    overflow:hidden;
+    z-index: -1;
+/*
+    margin:0;
+    padding:0;
+*/
+}
+
+background{
+    object-fit:contain;
+
+}
+
+
+.BigBox{
+    position: absolute;
+    border: 4px solid black;
+    background-color:yellow;
+    z-index: 1;
+    top:0;
+    margin:0;
+    padding:0;
+    
+    animation: code 7s infinite alternate;
+}
+
+.BigBox2{
+    position: absolute;
+    border: 4px solid black;
+    background-color:yellow;
+    z-index: 1;
+    top:0;
+    margin:0;
+    padding:0;
+    background-image: url( image/spin.gif);
+
+}
+
+
+#reg{
+    height:100px;
+    width:100px;
+}
+
+#long{
+    height:200px;
+    width:100px;
+}
+
+#wide{
+    width:200px;
+    height:100px;
+}
+
+.turn{
+transform: rotate(45deg); 
+}
+
+.rturn{
+transform: rotate(-45deg); 
+}
+
+.shrink{
+transform: scale(-20%); 
+}
+
+.grow{
+transform: scale(30%); 
+}
+
+
+.mouse{cursor:grab;}
+
+@keyframes code{
+    0% {background-color:blue;}
+    5% {background-color:pink;}
+    10% {background-color:goldenrod;}
+    20% {background-color:blueviolet;}
+    30% {background-color:paleturquoise;}
+    35% {background-color:cornflowerblue;}
+    40% {background-color:yellow;}
+    50% {background-color:greenyellow;}
+    60% {background-color:fuchsia;}
+    70% {background-color:darkorchid;}
+    80% {background-color:orangered;}
+    90% {background-color:deeppink;}
+    100% {background-color:purple;}
+    }
+

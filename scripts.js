@@ -29,8 +29,3 @@ $(".BigBox7").draggable({
 $(".BigBox8").draggable({
 	containment: ".walls"
 });
-
-
-$(".key1").click(function(){
-  $(".BigBox1").toggleClass("turn");
-});
