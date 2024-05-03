@@ -117,7 +117,7 @@ filter: opacity(80%);}
     background-color: #fab01c;
     height: 150%;
     width:100vw;
-    animation: slide-in 1s ease-in;
+    animation: slide-in .5s ease-in;
     overflow:hidden;
     padding-top:50px;
     position:absolute;
@@ -145,7 +145,7 @@ filter: opacity(80%);}
     height: 150%;
     width:100vw;
     padding-top:50px;
-    animation: slide-r 1s ease-in;
+    animation: slide-r .5s ease-in;
     overflow:hidden;
     position:absolute;
     top:0;
@@ -202,7 +202,7 @@ filter: opacity(80%);}
 */
 
 .hback{
-    background-image: url(images/home.png), url(images/home2.png);
+    background-image: url(Images/home.png), url(Images/home2.png);
 /*    background-position: 0px 0px, center center; */
     z-index: -3;
     background-position:left top;
