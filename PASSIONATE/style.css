@@ -128,11 +128,12 @@ filter: opacity(80%);}
 /*    left:50px;*/
     margin-top:40px;
     width:95%;
-    text-align: left;
+    text-align:right;
 /*    margin-right: 20px;*/
     padding-right: 60px;
     padding-left: 60px;
 } 
+
  
 @keyframes slide-in{
     from { transform: translateX(-100%); opacity:0;}
@@ -164,7 +165,7 @@ filter: opacity(80%);}
     margin-top:50px;
     width:95%;
 /*    position: fixed;*/
-    text-align: right;
+    text-align: left;
     padding-right: 60px;
     padding-left: 60px;
 } 
@@ -180,13 +181,9 @@ filter: opacity(80%);}
     padding-left: 60px;
     padding-top: 50px;
     background-color:transparent;
-    height: 150vh;
+    height: 150vh;}
     
-/*
- display: flex;
-    min-height: 100%;
-*/
-}
+#lt{text-align-last:left;}
 
 @keyframes grow{
     0%{ transform: scale(.2);}
