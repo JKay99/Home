@@ -76,8 +76,10 @@ background-color: #e6e7e8;
     height:100px;
     left:0;
     margin-top: auto;
+    margin-bottom: 0;
+    padding-bottom: 0;
 /*    position: fixed;*/
-/*    overflow:hidden;*/   
+    overflow:hidden;   
 }
 
 
@@ -88,6 +90,7 @@ overflow:hidden;
  margin:0;
  padding:0;
     text-align-last: right;
+    bottom:0;
 
 }
 
@@ -256,7 +259,7 @@ p{
 
 p{ 
     text-decoration-color:  color: black;
-    font-size: 12px;
+    font-size: 16px;
     font-family: "Helvetica regular", sans-serif;
     line-height: 1.5;
 }
