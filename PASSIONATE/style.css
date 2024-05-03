@@ -3,8 +3,12 @@ body{
 /*    background-color:aquamarine;*/
     margin:0;
     padding:0;
-    overflow-y: scroll; 
-    overflow-x:hidden;}
+/*    overflow-y: scroll; */
+    overflow-x:hidden;
+}
+
+body::-webkit-scrollbar{display:none;}
+
 img{
   max-width:100%;  
 }
@@ -192,14 +196,32 @@ p{
 }
 
 
-#text-body{ 
+#tbody{ 
     text-decoration-color:  color: black;
+    font-size: 12px;
+    font-family: "Helvetica", sans-serif;
+    line-height: 1.5;
 }
 
-#text-header{
+#ttitle{
+    text-transform : uppercase;
+    font-size: 40px;
+    font-family: "Tw Cen MT", sans-serif;
+    text-align: center;
 }
 
-#text-subheader{
+#theader{
+    font-size: 25px;
+    font-family: "Bebas Neue bold", sans-serif;
+}
+
+#tsubheader{
+    font-size: 18px;
+     font-family: "Bebas Neue regular", sans-serif;
+}
+
+#tdetail{
+    
 }
 
 colors
