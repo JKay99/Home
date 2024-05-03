@@ -196,6 +196,7 @@ filter: opacity(80%);}
 .column{
     display: flex;
    flex: 50%;
+    width:50%;
     flex-direction: column;
     margin:10px;
     padding:20px;
@@ -204,6 +205,7 @@ filter: opacity(80%);}
 .columnf{
     display: flex;
    flex: 100%;
+/*    width:100%;*/
     flex-direction: column;
     margin:10px;
     padding:20px;
